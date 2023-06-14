@@ -1,0 +1,130 @@
+{
+	"pages": [{
+			"path": "pages/recommend/recommend",
+			"style": {
+				"navigationBarTitleText": "好书推荐",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/score/score",
+			"style": {
+				"navigationBarTitleText": "豆瓣高分"
+			}
+		}, {
+			"path": "pages/readnote/readnote",
+			"style": {
+				"navigationBarTitleText": "读后感",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/write/write",
+			"style": {
+				"navigationBarTitleText": "写作",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+	],
+	"subPackages": [{
+			"root": "pagehome",
+			"pages": [{
+				"path": "pages/detail/detail",
+				"style": {
+					"navigationBarTitleText": "详情",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "pagescore",
+			"pages": [{
+				"path": "pages/search/search",
+				"style": {
+					"navigationBarTitleText": "搜索",
+					"enablePullDownRefresh": false
+				}
+			}, {
+
+				"path": "pages/bookdetail/bookdetail",
+				"style": {
+					"navigationBarTitleText": "图书详情",
+					"enablePullDownRefresh": false
+				}
+
+			}]
+		},
+		{
+			"root": "pagesread",
+			"pages": [{
+				"path": "pages/detail/detail",
+				"style": {
+					"navigationBarTitleText": "读后感详情",
+					"enablePullDownRefresh": false
+				}
+			}]
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "名著欣赏",
+		"navigationBarBackgroundColor": "#F2C94C",
+		"backgroundColor": "#F2C94C",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"app-plus": {
+		"softinputNavBar": "none"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#5C7A29",
+		"borderStyle": "black",
+		"backgroundColor": "#F2C94C",
+		"height": "50px",
+		"fontSize": "12px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [{
+
+				"pagePath": "pages/recommend/recommend",
+				"iconPath": "static/image/home.png",
+				"selectedIconPath": "static/image/home1.png",
+				"text": "首页"
+			},
+			{
+
+				"pagePath": "pages/score/score",
+				"iconPath": "static/image/haoping1.png",
+				"selectedIconPath": "static/image/haoping.png",
+				"text": "好评"
+			},
+			{
+				"pagePath": "pages/readnote/readnote",
+				"iconPath": "static/image/duhougan.png",
+				"selectedIconPath": "static/image/duhougan1.png",
+				"text": "读后感"
+			},
+
+			{
+				"pagePath": "pages/me/me",
+				"iconPath": "static/image/me.png",
+				"selectedIconPath": "static/image/me1.png",
+				"text": "我的"
+
+			}
+		]
+	}
+
+}
